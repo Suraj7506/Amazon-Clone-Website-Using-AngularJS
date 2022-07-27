@@ -1,0 +1,46 @@
+<header>
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-brand align-item-center d-flex">&nbsp;&nbsp;&nbsp;&nbsp;
+            <i routerLink="/products" style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
+                
+            </i>
+            <strong style="font-size: 30px;" routerLink="/products" id="speedmart">Speed Mart &nbsp;&nbsp;</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+            </div>
+        &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;   <span class="fas fa-search search-icon"></span>
+
+
+        </div>
+
+
+        <div>
+            <select  name="selectedProp" [(ngModel)]="selectedProp" >
+               
+            <option value=""></option>
+            <option *ngFor="let i of arrayList" value="{{i.value}}">{{i.text}}</option>
+          </select>
+        </div>
+
+        &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;
+        &nbsp;  &nbsp;  &nbsp; 
+
+       
+
+
+
+        <button routerLink="cart" class="btn btn-primary">
+            
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+           
+        
+        
+        </button>
+       
+    </div>
+    
+   
+    
+</header>

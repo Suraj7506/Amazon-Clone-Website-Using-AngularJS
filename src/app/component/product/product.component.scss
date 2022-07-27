@@ -1,0 +1,98 @@
+.card-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+}
+
+.item img {
+    width: 64px;
+    
+}
+
+.item {
+    margin: 0px 15px;
+    text-align: center;
+    
+}
+
+.item a:hover {
+    color: blue;
+}
+
+.card {
+    padding: 30px;
+    margin: 50px;
+    border: 2px solid orange;
+    left: 5%;
+
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.card img:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+#hello{
+    align-items: center;
+    align-content: center;
+}
+
+.container3{
+
+background-color: rgb(49, 49, 36);
+  width: 1263px;
+  
+  padding: 50px;
+  margin: 0px;
+  padding: auto;
+
+}
+
+.container3
+{font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+   
+
+.w3-input{
+    width: 500px;
+
+}
+
+.btn {
+    background-color: yellow;
+    color:black ;
+    border: #222;
+
+}
+
+.w4{
+    background-color: #222;
+    padding: 5px;
+    width: 250px;
+}
+
+.w3-button{
+    padding: 5px;
+    width: 250px;
+
+}
